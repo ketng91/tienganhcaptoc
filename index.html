@@ -71,7 +71,7 @@ select {
 /* Preview Frame */
 .preview-box {
   width: 80%;
-  height: 380px;
+  height: 480px;
   margin: 0 auto;
   border: 2px solid #a0e7e5;
   border-radius: 12px;
@@ -86,7 +86,7 @@ select {
 
 /* Word list */
 .word-list {
-  width: 85%;
+  width: 45%;
   margin: 20px auto;
   background-color: #E0FBE2;
   border-radius: 10px;
@@ -225,7 +225,17 @@ footer {
 <!-- Select Topic -->
 <div class="top-select">
   <select id="wordList">
-    <option value="1">Advertising</option>
+    <option value="1">Lesson 1</option>
+    <option value="2">Lesson 2</option>
+    <option value="3">Lesson 3</option>
+    <option value="4">Lesson 4</option>
+    <option value="5">Lesson 5</option>
+    <option value="6">Lesson 6</option>
+    <option value="7">Lesson 7</option>
+    <option value="8">Lesson 8</option>
+    <option value="9">Lesson 9</option>
+    <option value="10">Lesson 10</option>
+
   </select>
 </div>
 
@@ -257,15 +267,69 @@ footer {
 <script>
 /******** DATA ********/
 const previewFiles = {
-  1:"https://drive.google.com/file/d/1-EXAMPLE-abc123/preview"
+  1:"https://drive.google.com/file/d/1A5zwK9DiOu6wbQO3vgMwaIaU7lJwzjW_/preview"
+
+
+
+
+
 };
 
 const data = {
   1:[
-    {en:"advertising campaign", vn:"chiến dịch quảng cáo", tick:false},
-    {en:"advertising revenue", vn:"doanh thu quảng cáo", tick:false},
-    {en:"consumerism", vn:"chủ nghĩa tiêu dùng", tick:false},
-  ]
+    {en: "be", vn: "thì, là, ở", tick: false},
+    {en: "have", vn: "có", tick: false},
+    {en: "do", vn: "làm", tick: false},
+    {en: "say", vn: "nói", tick: false},
+    {en: "go", vn: "đi", tick: false},
+    {en: "get", vn: "nhận được, trở nên", tick: false},
+    {en: "make", vn: "chế tạo, làm ra", tick: false},
+    {en: "know", vn: "biết", tick: false},
+    {en: "think", vn: "nghĩ", tick: false},
+    {en: "take", vn: "lấy, cầm", tick: false},
+    {en: "see", vn: "nhìn, thấy", tick: false},
+    {en: "come", vn: "đến", tick: false},
+    {en: "want", vn: "muốn", tick: false},
+    {en: "use", vn: "dùng, sử dụng", tick: false},
+    {en: "find", vn: "tìm thấy", tick: false},
+    {en: "give", vn: "cho, tặng", tick: false},
+    {en: "tell", vn: "kể, bảo", tick: false},
+    {en: "work", vn: "làm việc", tick: false},
+    {en: "call", vn: "gọi", tick: false},
+    {en: "try", vn: "thử, cố gắng", tick: false},
+    {en: "ask", vn: "hỏi", tick: false},
+    {en: "need", vn: "cần", tick: false},
+    {en: "feel", vn: "cảm thấy", tick: false},
+    {en: "become", vn: "trở nên, trở thành", tick: false},
+    {en: "leave", vn: "rời khỏi, để lại", tick: false},
+    {en: "put", vn: "đặt, để", tick: false},
+    {en: "mean", vn: "nghĩa là", tick: false},
+    {en: "keep", vn: "giữ", tick: false},
+    {en: "let", vn: "để cho, cho phép", tick: false},
+    {en: "begin", vn: "bắt đầu", tick: false},
+    {en: "seem", vn: "có vẻ như", tick: false},
+    {en: "help", vn: "giúp đỡ", tick: false},
+    {en: "talk", vn: "nói chuyện", tick: false},
+    {en: "turn", vn: "xoay, quay, rẽ", tick: false},
+    {en: "start", vn: "bắt đầu, khởi hành", tick: false},
+    {en: "show", vn: "cho xem, trình bày", tick: false},
+    {en: "hear", vn: "nghe", tick: false},
+    {en: "play", vn: "chơi", tick: false},
+    {en: "run", vn: "chạy", tick: false},
+    {en: "move", vn: "di chuyển", tick: false},
+    {en: "live", vn: "sống", tick: false},
+    {en: "believe", vn: "tin tưởng", tick: false},
+    {en: "bring", vn: "mang đến", tick: false},
+    {en: "happen", vn: "xảy ra", tick: false},
+    {en: "write", vn: "viết", tick: false},
+    {en: "sit", vn: "ngồi", tick: false},
+    {en: "stand", vn: "đứng", tick: false},
+    {en: "pay", vn: "trả tiền", tick: false},
+    {en: "meet", vn: "gặp gỡ", tick: false},
+    {en: "include", vn: "bao gồm", tick: false}
+  ],
+
+
 };
 
 const exercises = {
